@@ -130,7 +130,8 @@
 /* REMOVE */
 header,
 aside,
-main {
+main,
+#projects-container div {
   outline: 1px solid red;
 }
 
@@ -144,11 +145,17 @@ main {
 #header {
   grid-row: 1 / 2;
   grid-column: 1 / 4;
+  background-color: var(--dark-blue);
+  color: var(--cream);
+  text-align: center;
+  height: 8vh;
+  line-height: 8vh;
 }
 
 #left-sidebar {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
+  background-color: var(--light-blue);
 }
 
 #main-area {
