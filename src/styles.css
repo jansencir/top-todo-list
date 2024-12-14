@@ -175,6 +175,7 @@ main,
 
 #add-project-btn {
   background-color: var(--blue);
+  font-size: 0.9rem;
   width: 150px;
   height: 30px;
   border-radius: 18px;
@@ -205,6 +206,33 @@ main,
 #main-area {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  margin-top: 18px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.project-description {
+  font-weight: 600;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.task {
+  margin: 15px 18px;
+  padding: 10px 15px;
+  background-color: var(--light-blue);
+}
+
+.task button {
+  float: right;
+}
+
+.task-name {
+  font-size: 1.1rem;
 }
 
 #right-sidebar {
