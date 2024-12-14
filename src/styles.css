@@ -125,6 +125,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--cream);
 }
 
 /* REMOVE */
@@ -139,7 +144,6 @@ main,
   display: grid;
   grid-template-rows: 8vh 92vh;
   grid-template-columns: 1fr 3fr 1fr;
-
 }
 
 #header {
@@ -152,8 +156,14 @@ main,
   line-height: 8vh;
 }
 
+#header h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
 .body-header {
   margin-top: 18px;
+  font-size: 1.2rem;
 }
 
 #left-sidebar {
@@ -165,8 +175,8 @@ main,
 
 #add-project-btn {
   background-color: var(--blue);
-  width: 110px;
-  height: 28px;
+  width: 150px;
+  height: 30px;
   border-radius: 18px;
 }
 
@@ -187,6 +197,11 @@ main,
   float: right;
 }
 
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
 #main-area {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
@@ -195,4 +210,6 @@ main,
 #right-sidebar {
   grid-row: 2 / 3;
   grid-column: 3 / 4;
+  background-color: var(--light-blue);
+  text-align: center;
 }
