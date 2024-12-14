@@ -107,6 +107,18 @@
     font-style: italic;
   }
   
+:root {
+    /* Color Codes */
+    --cream: #FCFCEF;
+    --blue: #6298DC;
+    --dark-blue: #1E2D6F;
+    --light-blue: #B4D5F3;
+    --priority-none: #4D85FF;
+    --priority-red: #FF5555;
+    --priority-yellow: #FFE866;
+    --priority-green: #6CFF4E;
+}  
+
 /* Styles */
 * {
     margin: 0;
@@ -115,6 +127,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* REMOVE */
 header,
 aside,
 main {
