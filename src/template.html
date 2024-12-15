@@ -23,7 +23,7 @@
              <div id="projects-container">
                 <div class="project">
                     <button>X</button>
-                    <p class="project-title">GENERAL</p>
+                    <p class="project-name">GENERAL</p>
                     <p>Random Task 1</p>
                     <p>Random Task 2</p>
                     <p>Random Task 3</p>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="project">
                     <button>X</button>
-                    <p class="project-title">GENERAL</p>
+                    <p class="project-name">GENERAL</p>
                     <p>Random Task 1</p>
                     <p>Random Task 2</p>
                     <p>Random Task 3</p>
@@ -66,6 +66,37 @@
             <div id="calendar-month">Imagine a Calendar</div>
             <div id="calendar-week">Imagine a Week</div>
         </aside>
+
+        <div id="project-modal" class="modal">
+            <div class="form-container">
+                <button class="form-close-btn">X</button>
+                <p class="form-header">Add New Project</p>
+                <form action="">
+                    <label for="project-form-name">Project Name</label>
+                    <input type="text" name="project-form-name" id="project-form-name" required>
+                    <label for="project-form-description">Description</label>
+                    <textarea name="project-form-description" id="project-form-description"></textarea>
+                    <button type="submit">Add Project</button>
+                </form>
+            </div>
+        </div>
+        <div id="task-modal" class="modal">
+            <div class="form-container">
+                <button class="form-close-btn">X</button>
+                <p class="form-header">Add New Task</p>
+                <form action="">
+                    <label for="task-form-name">Task Name</label>
+                    <input type="text" name="task-form-name" id="task-form-name" required>
+                    <label for="task-form-date">Task Due Date</label>
+                    <input type="date" name="task-form-date" id="task-form-date">
+                    <label for="task-form-priority">Task Priority</label>
+                    <input type="radio" name="task-form-priority" id="task-form-priority">
+                    <label for="task-form-description">Description</label>
+                    <textarea name="task-form-description" id="task-form-description"></textarea>
+                    <button type="submit">Add Task</button>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 </html>
