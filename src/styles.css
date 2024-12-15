@@ -174,7 +174,8 @@ main,
   text-align: center;
 }
 
-#add-project-btn {
+#add-project-btn,
+#add-task-btn {
   background-color: var(--blue);
   font-size: 0.9rem;
   width: 150px;
@@ -184,7 +185,10 @@ main,
 
 #add-project-btn:hover,
 #add-project-btn:focus,
-#add-project-btn:active {
+#add-project-btn:active,
+#add-task-btn:hover,
+#add-task-btn:focus,
+#add-task-btn:active {
   background-color: var(--light-blue);
 }
 
@@ -212,12 +216,15 @@ main,
 .main-project-name {
   font-size: 1.25rem;
   margin-top: 18px;
-  margin-left: 18px;
-  margin-right: 18px;
 }
 
 .project-description {
   font-weight: 600;
+}
+
+.main-project-name,
+.project-description,
+#add-task-btn {
   margin-left: 18px;
   margin-right: 18px;
 }
@@ -254,6 +261,14 @@ main,
   height: 100%;
   width: 100%;
   background-color: #00000050;
+}
+
+#project-modal {
+  display: none;
+}
+
+#task-modal {
+  display: none;
 }
 
 .form-container {
