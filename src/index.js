@@ -1,4 +1,5 @@
 import "./styles.css";
+import { addToDoHandler } from "./modules/modal.js";
 
 const makeToDo = () => {
     if (!localStorage.todo) {
@@ -11,3 +12,5 @@ const makeToDo = () => {
 
 makeToDo();
 console.log(localStorage);
+
+addToDoHandler();
