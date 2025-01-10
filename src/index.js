@@ -11,6 +11,4 @@ const makeToDo = () => {
 };
 
 makeToDo();
-console.log(localStorage);
-
 addToDoHandler();
