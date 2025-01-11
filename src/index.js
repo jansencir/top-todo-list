@@ -2,9 +2,9 @@ import "./styles.css";
 import { addToDoHandler } from "./modules/modal.js";
 
 const makeToDo = () => {
-    if (!localStorage.todo) {
-        localStorage.setItem("todo", "{}");
-        console.log(localStorage.todo);
+    if (!localStorage.myTodo) {
+        localStorage.setItem("myTodo", "[]");
+        console.log(localStorage.myTodo);
     } else {
         return;
     }
